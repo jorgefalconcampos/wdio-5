@@ -39,20 +39,6 @@ class LoginPage extends AbstractPage {
       "Login and/or password are wrong"
     );
   }
-
-  // await browser.pause(1000);
-  // await (await $("#user_login")).setValue("test");
-  // await browser.pause(1000);
-  // await (await $("#user_password")).setValue("test");
-  // await browser.pause(1000);
-  // await (await $("input[type='submit']")).click();
-  // await browser.pause(1000);
-  // const errMessage = await $(".alert-error");
-  // await expect(errMessage).toHaveTextContaining(
-  //   "Login and/or password are wrong."
-  // );
-
-  // functions
 }
 
 export default new LoginPage();
