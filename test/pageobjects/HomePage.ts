@@ -1,7 +1,5 @@
 class HomePage {
-  public get signInButton() {
-    return $("#signin_button");
-  }
+
 
   public get feedbackLink() {
     return $("#feedback");
@@ -11,9 +9,6 @@ class HomePage {
     await browser.url("http://zero.webappsecurity.com/index.html");
   }
 
-  public async clickOnSignInButton() {
-    await (await this.signInButton).click();
-  }
 
   public async clickOnFeedbackLink() {
     await (await this.feedbackLink).click();
