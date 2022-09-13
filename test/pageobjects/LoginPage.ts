@@ -1,4 +1,6 @@
-class LoginPage {
+import AbstractPage from "./AbstractPage";
+
+class LoginPage extends AbstractPage {
   // selectors
   public get loginForm() {
     return $("#login_form");
